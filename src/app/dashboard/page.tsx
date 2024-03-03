@@ -1,4 +1,5 @@
 'use client';
+import NavigationBar from '@/app/dashboard/navigation-bar';
 import '@/lib/env';
 import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
 
@@ -28,7 +29,7 @@ export default function Dashboard() {
   return (
     <main>
       <div className='flex items-center w-screen h-screen'>
-        <div className='w-96 h-full border-r'></div>
+        <NavigationBar />
         <div className='flex flex-col justify-between w-full h-full'>
           <div className='h-12 w-full border-b'></div>
           <DataGrid className='mx-5 my-5 p-5' rows={rows} columns={columns} />

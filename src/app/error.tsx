@@ -17,7 +17,7 @@ export default function Error({
     console.error(error);
   }, [error]);
 
-  // Testing
+  // Testings
 
   return (
     <main>

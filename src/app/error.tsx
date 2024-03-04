@@ -17,9 +17,11 @@ export default function Error({
     console.error(error);
   }, [error]);
 
+  // Testing
+
   return (
     <main>
-      <section className='bg-white'>
+      <section className='bg-white  '>
         <div className='layout flex min-h-screen flex-col items-center justify-center text-center text-black'>
           <RiAlarmWarningFill
             size={60}
